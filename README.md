@@ -1,5 +1,7 @@
 # Annotation-Free Bengali Vision-Language Model for Pathology Localization
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/SABBiR1107/Annotation-Free-Bengali-Vision-Language-Model-for-Pathology-Localization/main/streamlit_app.py)
+
 A PyTorch and Streamlit-based web application for chest X-ray pathology classification and localization. This application leverages a DenseNet-121 multi-label model combined with Grad-CAM (Gradient-weighted Class Activation Mapping) to automatically localize areas of interest (pathologies) without requiring bounding box annotations during training.
 
 ---
