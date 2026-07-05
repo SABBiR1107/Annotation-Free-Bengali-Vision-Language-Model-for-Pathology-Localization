@@ -9,7 +9,6 @@ dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
     "numpy>=2.4.4",
-    "opencv-python>=4.13.0.92",
     "opencv-python-headless>=4.13.0.92",
     "pandas>=3.0.2",
     "pillow>=12.1.1",
