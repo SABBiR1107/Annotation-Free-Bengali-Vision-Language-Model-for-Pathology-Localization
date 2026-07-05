@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Datasets and large model files
+small_nih_dataset/
+/best_densenet_nih.pth
+
+# OS-specific files
+.DS_Store
