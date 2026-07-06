@@ -203,9 +203,8 @@ if uploaded is not None:
                 use_container_width=True,
             )
 
-        st.subheader("Top 5 Predictions")
-        for i in top_idx:
-            st.write(f"- {LABELS[int(i)]}: {float(probs[int(i)]):.4f}")
+        # st.subheader("Top 5 Predictions")
+        # for i in top_idx:
+        #     st.write(f"- {LABELS[int(i)]}: {float(probs[int(i)]):.4f}")
     except Exception as exc:
         st.error(f"Failed to run inference: {exc}")
-
